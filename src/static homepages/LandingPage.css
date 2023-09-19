@@ -1,0 +1,111 @@
+/* LandingPage.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color to the entire page */
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header and navigation */
+  .header {
+    background-color: #ffffff;
+    color: #050505;
+    position: fixed;
+    padding: 10px 0;
+    width: -webkit-fill-available;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #0e0d0d;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f5a623;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url('../images/datastore.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 130px 0;
+    }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+    /* margin-bottom: 30px; */
+  }
+  
+  .cta-button {
+    background-color: #f5a623;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e29500;
+  }
+  
+  /* Add styles for other sections as needed */
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Add additional styles for feature cards, about section, and contact section */
+  

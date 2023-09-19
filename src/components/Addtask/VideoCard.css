@@ -1,0 +1,76 @@
+/* VideoCard.css */
+
+.video-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-left: 5px;
+  align-items: center;
+  background-color: #fff;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .video-content {
+    flex-grow: 1;
+  }
+  
+  .video-title {
+    font-size: 18px;
+    margin: 0;
+    height: 50px;
+    overflow: hidden;
+    width: 150px;
+  }
+  
+  .video-description {
+    margin: 8px 0;
+  }
+  
+  .delete-button {
+    display: flex;
+    float: right;
+  }
+
+.delete-button .MuiSvgIcon-root {
+  cursor: pointer;
+  color: #ff0000; /* Red color for the delete icon */
+}
+
+
+  /* CSS for video card container */
+.video-card-container {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping to next row */
+  gap: 16px; /* Adjust the gap between video cards as needed */
+  justify-content: space-between; /* Distribute space between video cards */
+  align-items: flex-start; /* Align items to the top of each row */
+}
+
+/* CSS for video card wrapper */
+.video-card-wrapper {
+  flex: 1; /* Allow video card wrappers to grow and fill available space */
+  max-width: calc(33.33% - 16px); /* Adjust the maximum width of each card to fit three cards per row (with gap) on larger screens */
+}
+
+@media (max-width: 768px) {
+  .video-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .video-card-wrapper {
+    max-width: 100%; /* Occupy full width */
+  }
+}
+
+
+

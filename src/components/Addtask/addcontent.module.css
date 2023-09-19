@@ -1,0 +1,50 @@
+/* AddContentForm.css */
+
+/* Center the form vertically and horizontally */
+.formcontainer {
+  align-items: center;
+  margin-left: 430px;
+  }
+  .type{
+    display: flex;
+    justify-content: center;
+  }
+  /* Style the form elements */
+  .formcontainer form {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .formcontainer label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formcontainer input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formcontainer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .formcontainer button:hover {
+    background-color: #0056b3;
+  }
+  
